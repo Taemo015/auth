@@ -4,9 +4,9 @@ jobs:
   print:
     runs-on: windows-latest
     steps:
-      - name: "1"
-        run: echo 1!
-      - name: "2"
+      - name: Print first console
+        run: echo first console
+      - name: Print second console
         run: |
-          echo 1
-          echo 2
+          echo  first console
+          echo  second console
