@@ -4,5 +4,9 @@ jobs:
   print:
     runs-on: windows-latest
     steps:
-      - name: Print to console
-        run: echo Salam!
+      - name: "1"
+        run: echo 1!
+      - name: "2"
+        run: |
+          echo 1
+          echo 2
